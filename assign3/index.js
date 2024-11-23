@@ -32,6 +32,19 @@ function removeDuplicates(str) {
  function removeNo(str) {
     return str.replace(/[0123456789]/g, "");
 }
+function odd(num) {
+    if (num % 2 === 0) {
+      return "The number is even";
+    }
+    
+  }
+  
+function even(num) {
+    if (num % 2 !== 0) {
+      return "The number is odd";
+    }
+    
+  }
    module.export{
     add,
     subtract,
@@ -40,7 +53,9 @@ function removeDuplicates(str) {
     reverse,
     isPalindrome,
     removeDuplicates,
-    removeNo
+    removeNo,
+    odd,
+    even
    }
 
 
