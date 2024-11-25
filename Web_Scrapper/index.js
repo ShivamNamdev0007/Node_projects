@@ -18,4 +18,4 @@ async function scrapeWebsite(url) {
   }
 }
 
-scrapeWebsite('https://www.zomato.com/indore/delivery/dish-pizza');
+scrapeWebsite('https://example-ecommerce-website.com');
